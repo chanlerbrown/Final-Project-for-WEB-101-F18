@@ -1,0 +1,429 @@
+* { box-sizing: border-box;}
+html { background-color: #FED094;}
+.navbar {
+    overflow: hidden;
+    background-color: #7B403D;
+    position: fixed; 
+    z-index: 1; 
+    margin-top: -4em;
+    margin-left: -.6em;
+    width: 100%; 
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #FEAE94;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+h1 { margin-top: 2em;
+     background-color: #FEAE94;
+     text-align: center;
+     padding-bottom: 1em;
+     padding-top: 1em;
+     width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+     font-family: Charmonman, Tahoma, Kodchasan sans-serif;
+     color: white
+}
+h3 { text-align: center; 
+     font-family: Charmonman, Tahoma, Kodchasan sans-serif;
+     font-size: 1.5em;
+}
+#wrapper { margin: 2em 2em 2em 2em;
+            
+           
+}
+h4 { text-align:center;
+    font-family: Charmonman, Tahoma, Kodchasan sans-serif;
+    font-size: 1.5em;
+    margin-top: -11em
+}
+#box1 { width: 50em;
+        height: 50em;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        display: block;   
+}
+#place1 { background-image: url(purse1.png);
+         height: 100%;
+         width: 100%;
+         background-size: contain;
+         background-repeat: no-repeat;
+         margin-left: auto;
+         margin-right: auto;
+         display: block;         
+}
+
+.text { text-align: justify;
+        font-size: 1.4em; 
+        overflow:inherit;
+        font-family: Raleway, Tahoma, sans-serif;
+        color: #422321
+}
+
+#toptext { margin-top: -5.9em;
+           font-weight: bold;
+}
+#ltext { margin-top: -9.5em;
+         padding-bottom: 2em;
+         padding-top: 9em;
+        
+}
+#rtext { margin-top: -3em;
+         padding-top: 3em
+}
+        
+
+#box2 { width: 50em;
+        height: 50em;
+        margin-right:auto; 
+        margin-left: auto;
+        padding-top: 1em;
+        margin-top: -em;
+}
+#place2 { 
+/*    background-image: url(purse2.png);*/
+          background-repeat: no-repeat;
+          background-size: contain;
+          width: 100%;
+          height: 100%;
+          display: inline-block;
+/*
+           border: dashed;
+           border-width: .1em;
+           border-color:dimgrey;
+           border-radius: 1em 1em 1em 1em;
+*/
+}
+#place2 img { width: 50em;   
+              height: 50em;
+/*              padding-bottom: 8em;*/
+              border: .2em solid dimgrey;
+            
+}
+#place3 img { width: 50em;
+              height: 50em;
+              border: .2em solid dimgrey;
+}
+#boxtable { padding-top: 16.5em}
+table { margin-right: auto;
+        margin-left: auto;
+        margin-top: 18.5em;
+        border: .5em solid #422321;
+        width: 45%;
+        border-spacing: 0;
+
+    }
+td, th { border: 1px solid #422321;
+         padding: 1em;
+         font-family: Tahoma, sans-serif;
+         border-style: none;
+    }
+tr:nth-of-type (even) { background-color: #EAEAEA;
+    }
+tr:first-of-type { background-color: #422321;
+                   color: #EAEAEA;
+    }
+#box5 { width: 50em;
+        height: 50em;
+        margin-left: auto;
+        margin-right: auto;
+       margin-top: 17em;
+        
+        
+}
+#addtext { margin-top: -11em;
+           padding-bottom: 4em;
+
+}
+#addtext5 { margin-top: -5em;
+            padding-bottom: 4em;
+}
+#addtext2 { margin-top: -1em}
+#addtext4 { margin-top: -8.5em;}
+#place4 { background-image: url(purse12.png);
+          height: 100%;
+          width: 100%;
+          background-size: contain;
+          background-repeat: no-repeat;
+          margin-top: -5em;
+}
+#box3 { width: 50em;
+        height: 50em;
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 17.7em;
+        margin-top: 4.5em;
+
+}
+#place3 { background-repeat: no-repeat;
+          background-size: contain;
+          width: 100%;
+          height: 100%;
+          display: inline-block;
+/*
+           border: dashed;
+           border-width: .1em;
+           border-color:dimgrey;
+           border-radius: 1em 1em 1em 1em;
+*/
+}
+#boxh2 { margin-right: auto;
+         margin-left: auto;
+} 
+h2 { text-align: center;
+    font-family: Charmonman, Tahoma, Kodchasan sans-serif;
+}
+#box4 { width: 50em;
+        height: 50em;
+        
+/*        overflow:inherit;*/
+}
+#box6 { width: 50em;
+        height: 50em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 48em;
+        
+}
+#place5 { background-image: url(purse7.png);
+          height: 100%;
+          width: 100%;
+          background-size: contain;
+          background-repeat: no-repeat;
+}
+#gallery { position: relative;
+           display: block;
+    }
+figure { position: absolute, left 280px;
+         font-size: 1em;
+         text-align: center;
+    }
+
+#gallery ul { width: 300px;
+              list-style-type: none;
+    }
+#gallery li { display: inline;
+              float: left;
+              padding: 10px;
+    }
+#gallery img { border-style: none;
+               display: block;
+               overflow: hidden;
+               position: relative;
+    }
+#gallery a { text-decoration: none;
+             color: darkred;
+             font-style: italic;
+    }
+#gallery span { position: absolute;
+                left: -1000px;
+                opacity: 0;
+                text-align: justify;
+                font-size: 1em;
+                transition: opacity 3s ease-in-out;
+    }
+#gallery a:hover span { position: absolute;
+                        top: .2em;
+                        left: 25em;
+                        text-align: center;
+                        opacity: 1;
+    }  
+@media only screen and (max-width: 64em) {
+/*    html { background-color: pink}*/
+    #wrapper { margin-left: 1em;
+               margin-right: 1em;
+    }
+    #box1 { width: 33em;
+            height: 33em;
+             
+    }
+    #toptext { padding-top: 1.5em;
+               font-size: .95em
+    }
+    #place2 { margin-left: auto;
+              margin-right: auto;
+              display: block;
+             
+    } 
+    h3 { margin-top: 4.5em}
+    #ltext { padding-top: 11.5em;
+             }
+    #rtext { padding-top: 1em; 
+             margin-top: 1.5em;
+    }
+    #box2 { width: 33em;
+            height: 33em;
+    }
+    #place1 { margin-left: auto;
+             margin-right: auto;
+             display: block;}
+    #place2 img { width: 33em;
+                  height: 33em;            
+    }
+    #place3 img { width: 33em;
+                  height: 33em;
+    }
+    #box3 { width: 33em;
+            height: 33em;
+            padding-top: 1.5em
+    }
+    #place3 { display: block;
+              margin-top: 24.5em;
+              padding-top: 1em;
+    }
+    h4{ margin-top: 28em}
+    table { margin-top: 33.5em;}
+    #box5 { width: 33em;
+            height: 33em;
+    }
+    #place4 { margin-left: auto;
+              margin-right: auto;
+              display: block;
+    }
+    
+    #addtext2 { padding-top: 1.5em;}
+    #addtext3 { padding-top: 1.5em;}
+    #addtext4 { padding-top: 7.5em;}
+    #box4 { width: 50em;
+            height: 50em;
+            margin-right: auto;
+            margin-left: auto;
+    }
+    #box6 { width: 33em;
+            height: 33em;
+            margin-right: auto;
+            margin-left: auto;
+            padding-top: 6em;
+            margin-top: 62em
+    }
+    #place5 { margin-left: auto;
+              margin-right: auto;
+              display: block;
+    }
+    gallery { margin-right: auto; 
+              margin-left: auto;
+
+    } 
+    figure { margin-right: auto;
+             margin-left: auto;
+             position: none;
+             left: none;
+            height: 900px
+
+             }
+    #gallery ul { 
+        display: inline;
+/*                  display: none;*/
+    }
+ 
+    #gallery li { 
+        float: left;
+                display: inline-block;
+                  margin-left: auto;
+                  margin-right: auto;
+                  width: 50%;
+/*                  height: 100%;*/
+*/
+    }
+
+    #gallery img { margin-left: auto;
+                      margin-right: auto;
+                      width: 40vw;
+                      height: 40vw;
+                    
+/*        display: inline-block*/
+    
+    }
+    #gallery a:hover span { display: none;
+    }
+}
+    
+@media only screen and (max-width: 37.5em){
+    html { color: #422321;}
+    #wrapper { margin-left: .5em;
+               margin-right: .5em;
+}
+    #box1 { width: 25em;
+            height: 25em;
+} 
+    #place1 { margin-left: auto;
+              margin-right: auto;
+              display: block;
+    }
+    #box2 { width: 25em;    
+            height: 25em;
+            margin-top: -1em
+    }
+    #place2 { margin-left: auto;
+              margin-right: auto;
+              display: auto;
+    }
+    h3 { margin-top: 7em}
+    #place2 img { width: 25em;
+                  height: 25em;
+    }
+    #place3 img { width: 25em;
+                  height: 25em;            
+    }
+    #ltext { padding-top: 14em;}
+    #toptext { padding-top: 2.5em;
+    }
+    #box3 { width: 25em;
+            height: 25em;
+            margin-top: 15.5em;
+    }
+    h4 { margin-top: 101em}
+    #rtext { padding-top: 3em;}
+    table { margin-top: 41.5em;}
+    #box5 { width: 25em;
+            height: 25em;
+            margin-top: 16.5em;
+            overflow: inherit
+    }
+    #place4 { margin-left: auto;    
+              margin-right: auto;
+              display: block;
+/*              margin-top: em;*/
+    }
+    #addtext3 { padding-top: 9em;}
+    #addtext4 { padding-top: 9em;}
+    #box6 { width: 25em;
+            height: 25em;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 70em;
+    }
+    #place5 { margin-left: auto;
+              margin-right: auto;
+              display: block;
+    }
+    #box4 { 
+            width: 30em;
+            height: 30em;
+            margin-left: auto;
+            margin-right: auto;
+    }
+    #gallery ul { width: 100%;
+                  height: 100%;
+                  display: inline-block
+    }
+    #gallery li { float: none;
+                   
+    }
+    #gallery img { margin-left: auto;
+                   margin-right: auto;
+                   width: 20em;
+                   height: 20em;
+                    
+    }
+    #gallery a:hover span { display: none;}
+}
